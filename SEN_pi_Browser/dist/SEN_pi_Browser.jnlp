@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SEN_pi_Browser.jnlp">
+  <information>
+    <title>SEN_pi_Browser</title>
+    <vendor>MRGDFK</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SEN_pi_Browser.jar" size="13699" download="eager" />
+    <jar href="lib\fontawesomefx-8.0.1.jar" size="65486" download="eager" />
+    <jar href="lib\fontawesomefx-8.2.jar" size="180341" download="eager" />
+    <jar href="lib\mysql-connector-j-8.0.32.jar" size="2480823" download="eager" />
+    <jar href="lib\ojdbc14-10.2.0.2.0.jar" size="1545954" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="SEN_pi_Browser.SEN_pi_Browser"  name="SEN_pi_Browser" />
+  <update check="always"/>
+</jnlp>
